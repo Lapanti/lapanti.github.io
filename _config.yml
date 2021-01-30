@@ -21,6 +21,7 @@ twitter_username: laurilavanti
 github_username: lapanti
 minimal_mistakes_skin: default
 search: false
+locale: 'fi-FI'
 
 # Build settings
 markdown: kramdown
