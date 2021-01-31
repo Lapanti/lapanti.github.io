@@ -75,8 +75,8 @@ fi: &DEFAULT_FI
   search_label               : "Avaa haku"
   toc_label                  : "Tällä sivulla"
   ext_link_label             : "Suora linkki"
-  less_than                  : "vähemmän kuin"
-  minute_read                : "minuutti(a)"
+  less_than                  : "alle"
+  minute_read                : "min"
   share_on_label             : "Jaa"
   meta_label                 :
   tags_label                 : "Tagit:"
