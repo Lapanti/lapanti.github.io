@@ -85,7 +85,7 @@ fi: &DEFAULT_FI
   comments_label             : "Jätä kommentti"
   comments_title             : "Kommentit"
   more_label                 : "Lisää"
-  related_label              : "Voit olla kiinnostunut myös"
+  related_label              : "Muita kirjoituksia"
   follow_label               : "Seuraa:"
   feed_label                 : "RSS"
   powered_by                 : "Voimanlähteenä"
