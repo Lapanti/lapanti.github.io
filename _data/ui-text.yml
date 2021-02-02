@@ -87,7 +87,7 @@ fi: &DEFAULT_FI
   more_label                 : "Lisää"
   related_label              : "Voit olla kiinnostunut myös"
   follow_label               : "Seuraa:"
-  feed_label                 : "Syöte"
+  feed_label                 : "RSS"
   powered_by                 : "Voimanlähteenä"
   website_label              : "Websivu"
   email_label                : "Email"
