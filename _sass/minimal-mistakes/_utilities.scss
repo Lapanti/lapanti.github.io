@@ -257,8 +257,6 @@ body:hover .visually-hidden button {
   height: $navicon-height;
   background: $primary-color;
   margin: auto;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
 
   &:before,
   &:after {
@@ -268,8 +266,6 @@ body:hover .visually-hidden button {
     width: $navicon-width;
     height: $navicon-height;
     background: $primary-color;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
   }
 
   &:before {
@@ -317,8 +313,6 @@ body:hover .visually-hidden button {
       height: 100%;
       opacity: 0;
       background-color: $background-color;
-      -webkit-transition: $global-transition;
-      transition: $global-transition;
       pointer-events: none;
     }
   }
@@ -326,8 +320,6 @@ body:hover .visually-hidden button {
   &.close {
     &:before {
       opacity: 0.9;
-      -webkit-transition: $global-transition;
-      transition: $global-transition;
       pointer-events: auto;
     }
   }
