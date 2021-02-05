@@ -211,39 +211,29 @@ body:hover .visually-hidden button {
     color: $text-color;
   }
 
+  .facebook,
   .fa-facebook,
   .fa-facebook-square,
   .fa-facebook-f {
     color: $facebook-color;
   }
 
-  .fa-github,
-  .fa-github-alt,
-  .fa-github-square {
-    color: $github-color;
-  }
-
-  .fa-instagram {
-    color: $instagram-color;
-  }
-
+  .linkedin,
   .fa-linkedin,
   .fa-linkedin-in {
     color: $linkedin-color;
   }
 
+  .rss,
   .fa-rss,
   .fa-rss-square {
     color: $rss-color;
   }
 
+  .twitter,
   .fa-twitter,
   .fa-twitter-square {
     color: $twitter-color;
-  }
-
-  .fa-youtube {
-    color: $youtube-color;
   }
 }
 
