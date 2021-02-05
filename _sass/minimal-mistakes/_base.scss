@@ -214,7 +214,7 @@
     -webkit-box-align: start;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin: 2em 0;
+    margin: 2em -1em;
   
     img,
     iframe,
@@ -224,7 +224,6 @@
   
     img {
       width: 100%;
-      border-radius: $border-radius;
       -webkit-transition: $global-transition;
       transition: $global-transition;
     }
@@ -267,6 +266,10 @@
     color: $muted-text-color;
     font-family: $caption-font-family;
     font-size: $type-size-6;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-style: italic;
   
     a {
       -webkit-transition: $global-transition;
