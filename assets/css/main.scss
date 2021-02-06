@@ -17,5 +17,16 @@ $body-color: hsl(166, 76, 10);
     fill: currentColor;
 }
 
+.page__date,
+.page__meta-date,
+.page__meta-readtime {
+    display: inline-flex;
+    align-items: center;
+
+    .icon {
+        margin-right: 0.25em;
+    }
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
