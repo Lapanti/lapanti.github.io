@@ -36,6 +36,9 @@ timezone: Europe/Helsinki # https://en.wikipedia.org/wiki/List_of_tz_database_ti
 include:
   - _pages
 
+sass:
+  style: compressed
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
