@@ -1,0 +1,18 @@
+<aside class="page__share">  
+  <span>Jaa:</span>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" class="btn-facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Jaa Facebookissa">
+    <svg class="svg-icon facebook">
+      <use xlink:href="#icon-facebook"></use>
+    </svg>
+  </a>
+  <a href="https://twitter.com/intent/tweet?{% if site.twitter.username %}via={{ site.twitter.username | url_encode }}&{% endif %}text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}" class="btn-twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Jaa Twitterissä">
+    <svg class="svg-icon twitter">
+      <use xlink:href="#icon-twitter"></use>
+    </svg>
+  </a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}" class="btn-linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Jaa LinkedInissä">
+    <svg class="svg-icon linkedin">
+      <use xlink:href="#icon-linkedin"></use>
+    </svg>
+  </a>
+</aside>

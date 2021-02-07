@@ -2,15 +2,24 @@
 layout: archive
 ---
 
-{{ content }}
+<article>
+  <img class="hero" alt="Pulkkaretkellä" src="/assets/images/pulkkaretkella.jpg" />
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+  <h1>
+      <dl>
+          <dt>Lauri Lavanti - 29-vuotias</dt>
+          <dd>Isä</dd>
+          <dd>Kirkkonummelainen</dd>
+          <dd>Ohjelmistokehittäjä</dd>
+          <dd>Diplomi-insinööri</dd>
+      </dl>
+  </h1>
+</article>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
+<aside class="related">
+  <h2>Viimeisimmät kirjoitukset</h2>
+
   {% for post in site.posts limit:3 %}
     {% include archive-single.html type=entries_layout %}
   {% endfor %}
-</div>
-
-{% include paginator.html %}
+</aside>
