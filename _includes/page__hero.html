@@ -4,4 +4,4 @@
   {% assign image_description = page.title %}
 {% endif %}
 
-<img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="h">
+<img class="h" alt="{{ image_description }}" src="{{ page.header.image }}-l.{{ page.header.image_ext }}" srcset="{{ page.header.image }}-s.{{ page.header.image_ext }} 320w, {{ page.header.image }}-m.{{ page.header.image_ext }} 640w, {{ page.header.image }}-l.{{ page.header.image_ext }} 1024w, {{ page.header.image }}-xl.{{ page.header.image_ext }} 1600w" sizes="100vw" />

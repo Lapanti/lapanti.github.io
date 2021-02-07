@@ -1,6 +1,8 @@
 <figure class="{{ include.class }}">
-  <img src="{{ include.image_path | relative_url }}"
-       alt="{% if include.alt %}{{ include.alt }}{% endif %}">
+  <img src="{{ include.image_path | relative_url }}-l.{{ include.ext }}"
+       alt="{% if include.alt %}{{ include.alt }}{% endif %}"
+       srcset="{{ include.image_path | relative_url }}-s.{{ include.ext }} 320w, {{ include.image_path | relative_url }}-m.{{ include.ext }} 640w, {{ include.image_path | relative_url }}-l.{{ include.ext }} 1024w, {{ include.image_path | relative_url }}-xl.{{ include.ext }} 1600w"
+       sizes="100vw">
   {%- if include.caption -%}
     <figcaption>
       {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
