@@ -44,10 +44,10 @@ html {
         margin: 0;
         padding: 0;
         display: grid;
-        grid: "header" var(--base-x4)
-            " main " 1fr
-            "footer" var(--base-x8)
-            / 1fr;
+        grid:   "header" var(--base-x4)
+                " main " 1fr
+                "footer" var(--base-x8)
+                / 1fr;
         row-gap: var(--base-x1);
         min-height: 100%;
 
@@ -106,39 +106,39 @@ html {
             font-weight: bold;
         }
 
-        .hidden-svgs {
+        .a {
             position: absolute;
             width: 0;
             height: 0;
             overflow: hidden;
         }
 
-        .svg-icon {
+        .b {
             display: inline-block;
             height: var(--base-x1);
             width: var(--base-x1);
             fill: currentColor;
         }
 
-        .facebook {
+        .f {
             fill: var(--fb-color);
         }
 
-        .twitter {
+        .t {
             fill: var(--twitter-color);
         }
 
-        .linkedin {
+        .l {
             fill: var(--linkedin-color);
         }
 
-        .rss {
+        .r {
             fill: var(--rss-color);
         }
 
-        .page__meta,
-        .page__date,
-        .page__share {
+        .m,
+        .d,
+        .s {
             display: flex;
             flex-direction: row;
 
@@ -157,7 +157,7 @@ html {
             }
         }
 
-        .page__share {
+        .s {
             margin-top: var(--base-x1);
         }
 
@@ -226,7 +226,7 @@ html {
                     width: 100%;
                     grid-column: 1 / -1;
 
-                    &.hero {
+                    &.h {
                         margin-top: var(--negative-x1);
                         object-fit: cover;
                         max-height: var(--base-x16);
@@ -261,13 +261,13 @@ html {
                         }
                     }
 
-                    &.title {
+                    &.c {
                         margin: var(--base-x1) 0 var(--base-x0-25) 0;
                     }
                 }
             }
 
-            aside.related {
+            aside.e {
                 > h2 {
                     box-shadow: var(--box-shadow);
                     margin-top: var(--base-x2);
@@ -293,7 +293,7 @@ html {
                 display: flex;
                 flex-direction: row;
 
-                .svg-icon {
+                .b {
                     height: var(--base-x1-125);
                     width: var(--base-x1-125);
                 }

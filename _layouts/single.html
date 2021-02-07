@@ -11,7 +11,7 @@ layout: default
   {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
   {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
-  {% if page.title %}<h1 class="title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+  {% if page.title %}<h1 class="c" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
   {% include page__meta.html %}
 
   {{ content }}
@@ -23,7 +23,7 @@ layout: default
 </article>
 
 {% if page.id and page.related %}
-  <aside class="related">
+  <aside class="e">
     <h2>Muita kirjoituksia</h2>
     {% if site.related_posts.size > 0 %}
       {% for post in site.related_posts limit:3 %}

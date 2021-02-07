@@ -1,10 +1,10 @@
 {% assign document = post | default: page %}
 {% if document.read_time or document.show_date %}
-  <aside class="page__meta">
+  <aside class="m">
     {% if document.show_date and document.date %}
       {% assign date = document.date %}
       <span>
-        <svg class="svg-icon icon"><use xlink:href="#icon-calendar-alt"></use></svg>
+        <svg class="b icon"><use xlink:href="#icon-calendar-alt"></use></svg>
         <time datetime="{{ date | date_to_xmlschema }}">{{ date | date: "%-d.%-m.%Y" }}</time>
       </span>
     {% endif %}
@@ -14,7 +14,7 @@
       {% assign words = document.content | strip_html | number_of_words %}
 
       <span>
-        <svg class="svg-icon icon"><use xlink:href="#icon-clock"></use></svg>
+        <svg class="b icon"><use xlink:href="#icon-clock"></use></svg>
         <span>
         {% if words < words_per_minute %}
           alle 1 min
