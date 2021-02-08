@@ -1,5 +1,7 @@
 <figure class="{{ include.class }}">
-  <img src="{{ include.image_path | relative_url }}-l.{{ include.ext }}"
+  <img src="{{ include.image_path | relative_url }}-s.{{ include.ext }}"
+      height="180"
+      width="320"
        alt="{% if include.alt %}{{ include.alt }}{% endif %}"
        srcset="{{ include.image_path | relative_url }}-s.{{ include.ext }} 320w, {{ include.image_path | relative_url }}-m.{{ include.ext }} 640w, {{ include.image_path | relative_url }}-l.{{ include.ext }} 1024w, {{ include.image_path | relative_url }}-xl.{{ include.ext }} 1600w"
        sizes="100vw">
