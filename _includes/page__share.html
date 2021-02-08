@@ -1,16 +1,16 @@
 <aside class="s">  
   <span>Jaa:</span>
-  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" class="btn-facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Jaa Facebookissa">
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url | absolute_url | url_encode }}" class="btn-facebook" target="_blank" title="Jaa Facebookissa">
     <svg class="b f">
       <use xlink:href="#icon-facebook"></use>
     </svg>
   </a>
-  <a href="https://twitter.com/intent/tweet?{% if site.twitter.username %}via={{ site.twitter.username | url_encode }}&{% endif %}text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}" class="btn-twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Jaa Twitterissä">
+  <a href="https://twitter.com/intent/tweet?{% if site.twitter.username %}via={{ site.twitter.username | url_encode }}&{% endif %}text={{ page.title | url_encode }}%20{{ page.url | absolute_url | url_encode }}" class="btn-twitter" target="_blank" title="Jaa Twitterissä">
     <svg class="b t">
       <use xlink:href="#icon-twitter"></use>
     </svg>
   </a>
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | absolute_url | url_encode }}" class="btn-linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Jaa LinkedInissä">
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | url_encode }}" class="btn-linkedin" target="_blank" title="Jaa LinkedInissä">
     <svg class="b l">
       <use xlink:href="#icon-linkedin"></use>
     </svg>
