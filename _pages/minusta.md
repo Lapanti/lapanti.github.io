@@ -1,6 +1,10 @@
 ---
 permalink: /minusta
 title: "Minusta"
+description: "Olen ikäni Kirkkonummella asunut 29-vuotias isä, kuntavaaliehdokas, ohjelmistokehittäjä ja diplomi-insinööri. Haluan vaikuttaa kuntani lasten ja nuorten hyvinvointiin esim kuntalisän palauttamisella ja päiväkotien ja koulujen määrällä sekä laadulla."
+image: /assets/images/pyoraily-harjoituksia-l.jpg
+seo:
+  type: Person
 ---
 
 Politiikkaan tutustuin jo lukiossa, kun minut valittiin edustamaan Masalan lukiota kunnan nuorisovaltuustoon vuonna 2010. Nuorisovaltuustossa ollessani pääsin toimimaan sen hallituksen puheenjohtajana. Kunnan antaman budjetin päätimme käyttää Kirkkonummella yhä käytössä olevaan graffitiseinään. Byrokratiaan ja paikan valintaan meni lähes koko vuosi, vaikka pohjatöitä oli jo edellisten nuorisovaltuustojen toimesta tehty. Lopulta kuitenkin löydettiin graffitiseinälle paikka Varuboden Areenan vierestä, joka kelpasi sekä kunnalle että asukkaille.
