@@ -1,13 +1,17 @@
+{% capture styles %}
+  {% include styles.scss %}
+{% endcapture %}
+
 <meta charset="utf-8">
 
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} syöte">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
 <script async defer data-domain="laurilavanti.fi" src="https://analytics.laurilavanti.fi/js/index.js"></script>
 
 {% seo %}
+
+<style>{{ styles | scssify }}</style>
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
