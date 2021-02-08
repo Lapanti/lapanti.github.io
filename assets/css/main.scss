@@ -53,7 +53,7 @@ html {
     --negative-x1: -1rem;
 
     // Colors
-    --link-color: #4F9581;
+    --link-color: #487F6D;
     --nav-link-color: #0C5A48;
     --accent-color: #062D24;
     --secondary-bg-color: #062e26;
@@ -250,6 +250,7 @@ html {
                 img,
                 figure {
                     width: 100%;
+                    height: auto;
                     grid-column: 1 / -1;
 
                     &.h {
