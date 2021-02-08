@@ -1,9 +1,6 @@
 ---
 title: "Kotihoidontuen kuntalisä - pieni kustannus, suuri merkitys"
-header:
-  image: /assets/images/kuntalisa
-  image_ext: png
-image: /assets/images/kuntalisa-l.jpg
+image: /assets/images/kuntalisa-l.png
 description: "Joulun alla Kirkkonummen kunnanvaltuusto päätti lopettaa kotihoidon tuen kuntalisän, eli niin kutsutun Kirkkonummi-lisän. Kuntalisää Kirkkonummella maksettiin 150 euroa kuukaudessa per alle 2-vuotias lapsi, joka on kotihoidossa."
 seo:
   type: BlogPosting
