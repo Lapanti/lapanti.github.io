@@ -10,18 +10,18 @@
     {% endif %}
 
     {% if document.read_time %}
-      {% assign words_per_minute = document.words_per_minute | default: site.words_per_minute | default: 200 %}
+      {% assign words_per_minute = 200 %}
       {% assign words = document.content | strip_html | number_of_words %}
 
       <span>
         <svg class="b icon"><use xlink:href="#icon-clock"></use></svg>
         <span>
         {% if words < words_per_minute %}
-          alle 1 min
-        {% elsif words == words_per_minute %}
-          1 min
+          alle minuutti
+        {% elsif words | divided_by: words_per_minute == 1 %}
+          1 minuutti
         {% else %}
-          {{ words | divided_by: words_per_minute }} min
+          {{ words | divided_by: words_per_minute }} minuuttia
         {% endif %}
       </span>
       </span>
