@@ -14,3 +14,5 @@ Kerhotoiminnassa on myös kyse lapsen edusta. {% include link text="Viimeaikaisi
 Lapsiperheille suunnatut palvelut myös houkuttelevat alueelle lisää lapsiperheitä, jolloin kunta pidetään elinvoimaisena ja pystytään tuottamaan lisää palveluita kaikille kunnan asukkaille. 
 
 Pidetään Kirkkonummi lapsille ja lapsiperheille ystävällisenä kuntana ja palautetaan varhaiskasvatuksen kerhotoiminta! 
+
+*Julkaistu alun perin Kirkkonummen Sanomissa 11.2.2021.*

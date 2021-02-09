@@ -19,6 +19,6 @@ Entäs sitten lapsi ja perhe? Vanhempainvapaa loppuu kun lapsi on {% include lin
 
 Pidetään Kirkkonummi lapsille ja lapsiperheille ystävällisenä kuntana ja palautetaan kotihoidon tuen kuntalisä!
 
-*Julkaistu alunperin Kirkkonummen Sanomissa 20.1.2021.*
+*Julkaistu alun perin Kirkkonummen Sanomissa 20.1.2021.*
 
 *Korjattu 4.2.2021 palvelusetelin maksimihinta kuukaudessa 862 eurosta 1 293 euroon*
