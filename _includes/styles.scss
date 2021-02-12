@@ -172,6 +172,19 @@ html {
                     font-size: var(--base-x1-25);
                     line-Height: var(--base-x1-5);
                     font-weight: 700;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+
+                    svg {
+                        display: none;
+                        @media screen and (min-width: 400px) {
+                            display: inline;
+                            height: var(--base-x1-25);
+                            width: var(--base-x1-25);
+                            margin-right: var(--base-x0-25);
+                        }
+                    }
                 }
 
                 a,
@@ -278,6 +291,12 @@ html {
             align-items: center;
             justify-content: center;
             height: 100%;
+
+            > svg {
+                height: var(--base-x1-25);
+                width: var(--base-x1-25);
+                margin-bottom: var(--base-x0-5);
+            }
 
             ul {
                 list-style-type: none;
