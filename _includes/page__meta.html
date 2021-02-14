@@ -18,10 +18,10 @@
         <span>
         {% if words < words_per_minute %}
           alle minuutti
-        {% elsif words | divided_by: words_per_minute == 1 %}
-          1 minuutti
+        {% elsif words < 300 %}
+          noin 1 minuutti
         {% else %}
-          {{ words | divided_by: words_per_minute }} minuuttia
+          noin {{ words | divided_by: words_per_minute }} minuuttia
         {% endif %}
       </span>
       </span>
