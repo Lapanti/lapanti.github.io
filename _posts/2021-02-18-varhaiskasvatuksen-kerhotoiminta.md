@@ -1,5 +1,9 @@
 ---
 title: "Varhaiskasvatuksen kerhotoiminta - lapsen etu"
+header:
+  image: /assets/images/lastenkirjallisuutta
+  image_ext: jpg
+image: /assets/images/lastenkirjallisuutta-l.jpg
 description: "Samalla, kun kunnanvaltuusto päätti lopettaa alle 2-vuotiaiden kotihoidontuen kuntalisän, lopetettiin myös Kirkkonummella toiminut varhaiskasvatuksen kerhotoiminta."
 seo:
   type: BlogPosting
