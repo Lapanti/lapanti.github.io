@@ -2,7 +2,7 @@
   <nav>
     <a href="{{ '/' | relative_url }}"><svg>
         <use xlink:href="#logo"></use>
-      </svg>{{ site.masthead_title | default: site.title }}</a>
+      </svg><span>{{ site.masthead_title | default: site.title }}</span></a>
     <ul>
       {%- for link in site.data.navigation.main -%}
       <li>

@@ -1,5 +1,5 @@
 html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     height: 100%;
 
@@ -20,10 +20,15 @@ html {
     --negative-x1: -1rem;
 
     // Colors
-    --link-color: #487F6D;
-    --nav-link-color: #0C5A48;
-    --accent-color: #062D24;
-    --secondary-bg-color: #062e26;
+    --green: #76b72a;
+    --forest-green: #045a1c;
+    --dark-grey: #56504d;
+    --light-grey: #e3e3e3;
+
+    --link-color: var(--green);
+    --nav-link-color: var(--forest-green);
+    --accent-color: var(--dark-grey);
+    --secondary-bg-color: var(--dark-grey);
     
     --fb-color: #4267B2;
     --twitter-color: #1DA1F2;
@@ -66,8 +71,8 @@ html {
         }
         
         h1 {
-            font-size: var(--base-x1-25);
-            line-Height: var(--base-x1-5);
+            font-size: var(--base-x1-5);
+            line-Height: var(--base-x2);
         }
         h2 {
             font-size: var(--base-x1-125);
@@ -168,10 +173,22 @@ html {
                 justify-content: space-between;
                 margin: 0 var(--base-x1);
 
-                > a {
+                a,
+                a:visited,
+                a:link {
+                    color: var(--nav-link-color);
+                }
+
+                a {
                     font-size: var(--base-x1-25);
-                    line-Height: var(--base-x1-5);
                     font-weight: 700;
+                    &:active,
+                    &:hover {
+                        color: var(--accent-color);
+                    }
+                }
+
+                > a {
                     display: flex;
                     flex-direction: row;
                     align-items: center;
@@ -185,21 +202,12 @@ html {
                             margin-right: var(--base-x0-25);
                         }
                     }
-                }
 
-                a,
-                a:visited,
-                a:link {
-                    color: var(--nav-link-color);
-                }
-
-                a {
-                    font-size: var(--base-x1-125);
-                    &:active,
-                    &:hover {
-                        color: var(--accent-color);
+                    span {
+                        font-size: var(--base-x1-5);
+                        line-Height: var(--base-x1-5);
                     }
-            }
+                }
 
                 ul {
                     padding: 0;
@@ -292,12 +300,6 @@ html {
             justify-content: center;
             height: 100%;
 
-            > svg {
-                height: var(--base-x1-25);
-                width: var(--base-x1-25);
-                margin-bottom: var(--base-x0-5);
-            }
-
             ul {
                 list-style-type: none;
                 padding: 0;
@@ -305,9 +307,8 @@ html {
                 display: flex;
                 flex-direction: row;
 
-                .b {
-                    height: var(--base-x1-125);
-                    width: var(--base-x1-125);
+                li a {
+                    color: var(--light-grey);
                 }
 
                 li:not(:last-of-type) {

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" version="1.1">
-  <rect x="0" width="300" height="300" rx="40" style="fill: #0C5A48">
+  <rect x="0" width="300" height="300" rx="40" style="fill: #76b72a">
   </rect>
-  <text style="fill: white; font-family: Helvetica; font-size: 260px" x="40" y="260">L</text>
-  <text style="fill: white; font-family: Helvetica; font-size: 260px" x="130" y="210">L</text>
+  <text style="fill: white; font-family: 'Roboto'; font-size: 260px" x="40" y="260">L</text>
+  <text style="fill: white; font-family: 'Roboto'; font-size: 260px" x="130" y="210">L</text>
 </svg>
