@@ -295,6 +295,16 @@ html {
                 }
             }
 
+            aside.n {
+                position: absolute;
+                margin: var(--base-x2) var(--base-x1);
+                right: 0;
+                img {
+                    object-fit: contain;
+                    height: var(--base-x8);
+                }
+            }
+
             aside.e {
                 > h2 {
                     box-shadow: var(--box-shadow);
