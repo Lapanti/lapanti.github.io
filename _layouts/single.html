@@ -12,6 +12,7 @@ layout: default
   {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date_to_xmlschema }}">{% endif %}
 
   {% if page.title %}<h1 class="c" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+
   {% include page__meta.html %}
 
   {{ content }}
