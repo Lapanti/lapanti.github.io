@@ -1,9 +1,9 @@
 ---
 title: "Päiväkodit kaipaavat opettajia"
 header:
-  image: /assets/images/winellska-skolan
+  image: /assets/images/muumimaailmassa
   image_ext: jpg
-image: /assets/images/winellska-skolan-l.jpg
+image: /assets/images/muumimaailmassa-l.jpg
 description: "Päiväkodeissa on huutava pula varhaiskasvatuksen opettajista. Kirkkonummella olisi nyt mahdollisuus rakentaa uudenlaista työympäristöä ja tehdä siitä valttikortti uusien opettajien palkkaamiseen sekä nykyisten viihtymiseen!"
 seo:
   type: BlogPosting
@@ -15,6 +15,3 @@ Mitä jos Kirkkonummella jo töissä olevilta varhaiskasvatuksen opettajilta kys
 Tässä olisi Kirkkonummelle selvä kilpailuetu muihin kuntiin ja kaupunkeihin verrattuna, kun yritetään palkata tarvittavia varhaiskasvatuksen opettajia. Antamalla opettajien aidosti vaikuttaa työhönsä ja työympäristöönsä, erotumme eduksemme työmarkkinoilla, parannamme nykyisten työntekijöiden viihtyvyyttä ja samalla myös työn laatu paranee, sillä [hyvinvoivat työntekijät myös panostavat työhönsä](https://www.ttl.fi/perehdytys-tyohyvinvointiin-tyoterveyteen-ja-tyoturvallisuuteen/tyohyvinvointi-yhteinen-asia/){:target="_blank"}{:rel="noopener noreferrer"} enemmän. Kun meillä on motivoitunut varhaiskasvatuksen henkilöstö, saavat lapsemme entistä laadukkaampaa varhaiskasvatusta.
 
 Pidetään Kirkkonummi lapsille ja lapsiperheille ystävällisenä kuntana ja huolehditaan varhaiskasvatuksen henkilökunnasta! 
-
-
-*Julkaistu alun perin Kirkkonummen Sanomissa 20.5.2021.*
